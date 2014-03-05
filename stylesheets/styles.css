@@ -1,0 +1,129 @@
+body
+{
+ background: rgb(252, 252, 252); 
+}
+header.sidebar
+{
+  background-color: rgb(199, 19, 19);
+    position: absolute; left: 0; top: 0; bottom: 0; width: 30%; max-width: 500px;  background-size: cover; font-family: SourceSansPro,sans-serif;
+}
+
+section.sidebar_information
+{
+  color: white;
+}
+
+div.sidebar_userimage
+{
+ cursor: pointer;   border-radius: 80px;  background-repeat: no-repeat; background-size: cover; 
+    margin: 10% 35% 0;
+    padding: 0;
+    text-align: center; 
+}
+
+div.sidebar_userimage img
+{
+
+ border-radius: 26px;
+    width: 75px;
+    padding: 7px;
+    border: 1px solid #ccc; 
+}
+
+h1
+{
+  padding-bottom: 2em;
+    border-bottom: none;
+    font-size: 16px; margin: 0; 
+    padding: 5px 0 3em; line-height: 32px; font-weight: 800; text-align: left;
+}
+
+div.comunidad-autoria
+{
+  border-bottom: solid 1px white;
+    background: white;
+    border-top: solid 1px white;
+    padding: 3% 0;
+}
+
+div.logo
+{
+  display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 3% 0 0;
+}
+
+div.logo img
+{
+  width: 45px;
+    border-radius: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+div.nombre
+{
+display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+div.nombre p
+{
+  color: rgb(130, 124, 124);
+}
+
+ul
+{
+   margin: 10% 0 0 -1%;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+ul li a
+{
+ text-decoration: none; 
+}
+
+ul li a p
+{
+ width: 75%;
+    box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1); list-style-type: none;    
+    background: #890613; border-bottom: solid thin white;
+    padding: 1em 1em 1em;
+    text-decoration: none;
+    color: white; 
+}
+
+div.layout-principal
+{
+  position: absolute; top: 0; right: 0; bottom: 0;  overflow-x: auto;
+    width: 55%;
+    padding: 0% 6.5%;
+}
+
+div.bloque
+{
+  margin: 5% 0 0;
+}
+
+h3
+{
+ text-transform: uppercase; 
+    font-size: 13px; line-height: 32px; border-bottom: 1px #eee solid; color: #bbb;
+    margin-bottom: 2.5em;
+    padding-bottom: .5em; 
+}
+
+div.bloque p
+{
+  color: rgb(84, 80, 80);
+    line-height: 1.9em;
+}
